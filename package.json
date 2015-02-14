@@ -1,0 +1,16 @@
+{
+    "name": "lark-realtime",
+    "main": "./lib/realtime.js",
+    "version" : "0.0.0",
+    "author" : "Lark Team",
+    "maintainers" : [
+        {
+            "name"  : "Sun Haohao",
+            "email" : "viRingbells@qq.com"
+        }
+    ],
+    "repositories" : "https://github.com/larkjs/lark-realtime.git",
+    "dependencies" : {
+        "vi-io" : "~0.0.3"
+    }
+}
