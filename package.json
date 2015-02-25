@@ -1,7 +1,7 @@
 {
     "name": "lark-realtime",
     "main": "./lib/realtime.js",
-    "version" : "0.0.0",
+    "version" : "0.0.1",
     "author" : "Lark Team",
     "maintainers" : [
         {
@@ -11,6 +11,8 @@
     ],
     "repositories" : "https://github.com/larkjs/lark-realtime.git",
     "dependencies" : {
+        "lark" : "^0.6.0",
+        "app-root-path" : "^1.0.0",
         "vi-io" : "~0.0.3"
     }
 }

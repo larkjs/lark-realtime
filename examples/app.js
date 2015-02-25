@@ -1,23 +1,7 @@
-var realtime = require('..');
+var realtime = require('lark-realtime');
 
-var app = realtime();
-
-var html = require('fs').readFileSync('./index.html').toString();
-app.http.use(function*(next){
-    this.body = html;
-    yield next;
-});
-
-app.io.use(function*(next){
-    console.log("Connected");
-    yield next;
-    console.log("Disconnected");
-});
-
-app.io.route("message", function*(next){
-    var message = this.args[0];
-    console.log("Receive : " + message);
-    yield next;
+var app = realtime({
+    directory : 'examples/config'   
 });
 
 app.run(8300, function(){

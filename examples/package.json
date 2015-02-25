@@ -1,0 +1,10 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "description": "Lark realtime example application",
+  "main": "index.js",
+  "dependencies": {
+      "ejs" : "~2.2.3"
+  },
+  "devDependencies": {}
+}
