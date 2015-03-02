@@ -6,7 +6,7 @@
 
 'use strict';
 module.exports.views = {
-    directory: 'examples/views',
+    directory: 'views',
     default: 'tpl',
     map : {
         tpl : 'ejs',

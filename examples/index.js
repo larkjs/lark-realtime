@@ -1,9 +1,10 @@
-var realtime = require('lark-realtime');
+var realtime = require('..');
+var lark     = require('lark');
 
-var app = realtime({
-    directory : 'examples/config'   
-});
+var app = lark();
+
+realtime(app);
 
 app.run(8300, function(){
-    console.log("Realtime system listening at 8300...");   
+    console.log("Lark system listening at 8300...");   
 });

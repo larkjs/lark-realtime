@@ -10,11 +10,7 @@
         }
     ],
     "repositories" : "https://github.com/larkjs/lark-realtime.git",
-    "bin": {
-        "lark"    : "./bin/lark"
-    },
     "dependencies" : {
-        "lark" : "^0.6.0",
         "app-root-path" : "^1.0.0",
         "vi-io" : "~0.0.3"
     }

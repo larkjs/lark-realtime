@@ -7,5 +7,5 @@
 'use strict';
 
 module.exports.router = {
-  directory: "examples/controllers"
+  directory: "controllers"
 };
