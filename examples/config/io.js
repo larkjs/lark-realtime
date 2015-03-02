@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports.io = {
-    directory: 'examples/io',
+    directory: 'io',
     type     : 'ws'
     //type     : 'socket.io'
 };
