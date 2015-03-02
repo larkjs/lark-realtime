@@ -3,3 +3,6 @@ node_modules/
 
 # Temp files when edit with `vi` or `vim`
 *.swp
+
+# Log files in examples
+examples/logs

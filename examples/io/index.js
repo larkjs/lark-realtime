@@ -7,7 +7,7 @@ module.exports = function(io, app){
 
     io.route("message", function*(next){
         var message = this.args[0];
-        console.log("Receive : " + message);
+        console.log("Receive [" + process.pid + "]: " + message);
         yield next;
     });
 }

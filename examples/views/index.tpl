@@ -8,7 +8,7 @@
 </script>
 <% }else{ %>
 <script>
-  var ws = new WebSocket('ws://cq01-rdtest-fe01.vm.baidu.com:8300');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':8300');
 </script>
 <% } %>
 </head>
