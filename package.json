@@ -11,6 +11,7 @@
     ],
     "repositories" : "https://github.com/larkjs/lark-realtime.git",
     "dependencies" : {
+        "lark" : "0.6.0",
         "vi-io" : "~0.0.3"
     }
 }

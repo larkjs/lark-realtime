@@ -4,7 +4,6 @@
   "description": "Lark realtime example application",
   "main": "index.js",
   "dependencies": {
-      "lark" : "0.6.0",
       "ejs" : "~2.2.3"
   },
   "devDependencies": {}
